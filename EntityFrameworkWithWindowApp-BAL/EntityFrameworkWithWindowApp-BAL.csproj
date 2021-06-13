@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>EntityFrameworkWithWindowApp_BAL</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EntityFrameworkWithWindowApp-DAL\EntityFrameworkWithWindowApp-DAL.csproj" />
+  </ItemGroup>
+
+</Project>
